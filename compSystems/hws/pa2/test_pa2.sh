@@ -19,4 +19,5 @@ then
 else
     printf "\n======== CORRECT ========\n\n"
 fi
+
 rm output.txt
