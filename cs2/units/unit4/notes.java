@@ -24,5 +24,15 @@ d) nearly complete tree - a tree in which the difference in distance between two
 
 e) heap - a nearly complete binary tree where the value of each node is greater or equal to the value of its children
 	1) should not be confused with Binary Search Tree (BST)
-	
+	2) a heap supports the following operations
+		i) Sink(int idx) given a node at pos idx, whose left and right subtrees are correct heaps, but where no index < node Left(idx), or Right(idx)  this operation fixes the entire subtree staring at idx by progressively sinking the node
+		 	I) O(logn)
+		ii) Float(int idx) given a heap where only the node at pos idx may violate its order requirements relevant to its parent, this operation fixes the entire heap by progressively floating the node towards the root
+	3) Insert(int value)
+		i) insert value at the end
+		ii) float the value
+	4) ExtractMax()
+		i) swap the root with the last element
+		ii) save the lowest value, which was originally the root to be returned later
+		iii) sink the root, which is now the lowest element
 */
