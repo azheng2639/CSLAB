@@ -1,0 +1,7 @@
+git status
+git add --a $1
+git commit
+git push
+echo "$1 Published"
+
+
