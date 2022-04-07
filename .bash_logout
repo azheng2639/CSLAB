@@ -1,0 +1,3 @@
+gitPush
+# ~/.bash_logout
+

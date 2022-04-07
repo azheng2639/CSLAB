@@ -1,0 +1,15 @@
+include "/usr/share/nano/nanorc.nanorc"
+include "/usr/share/nano/c.nanorc"
+include "/usr/share/nano/python.nanorc"
+include "/usr/share/nano/sh.nanorc"
+include "/usr/share/nano/makefile.nanorc"
+include "/usr/share/nano/asm.nanorc"
+include "/usr/share/nano/makefile.nanorc"
+set smooth
+set mouse
+set autoindent
+set brackets ""')>]}"
+set matchbrackets "(<[{)>]}"
+set undo
+set const
+set tabsize 4
